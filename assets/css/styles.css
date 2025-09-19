@@ -1,0 +1,81 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(2231, 223, 223);
+    justify-content: center;
+    min-height:100vh;
+    background-color: rgb(231, 223, 223);
+    
+    
+    text-align: center; 
+    }
+    main {
+     max-width: 900px; /* opcional: limita a largura */
+     margin: 0 auto;   /* centraliza blocos */
+    }
+    iframe, img {
+      display: block;
+      margin: 20px auto;
+    
+  
+
+}
+
+img{
+    width: 200px;
+    justify-content: center;
+}
+
+
+nav{
+    margin-top: 2%;
+}
+
+a{
+    color: rgb(5, 5, 5);
+    
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+a:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    
+}
+table {
+  margin: 0 auto;   
+}
+
+main{
+    margin-top: 5%;
+}
+
+p{
+    line-height: 1.5;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+footer a{
+    font-size: 14px;
+    color: blue;
+}
+
+.lista-beneficios {
+  list-style: none;     /* tira as bolinhas pretas */
+  padding-left: 0;      /* remove recuo extra */
+  margin: 0 auto;       /* centraliza o bloco, mas mantém texto à esquerda */
+  text-align: left;     /* alinha o texto à esquerda */
+  max-width: 800px;     /* opcional: controla a largura */
+}
+
+.lista-beneficios li {
+  margin: 8px 0;        /* espaço entre os itens */
+  font-size: 18px;
+  line-height: 1.6;
+}
